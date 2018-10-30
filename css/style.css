@@ -1,0 +1,400 @@
+/*font*/
+@font-face {
+    font-family: Brandon_reg;
+    src: url(../fonts/Brandon_reg.ttf);
+}
+@font-face {
+    font-family: cubano-reg;
+    src: url(../fonts/cubano-reg.ttf);
+}
+body{
+	font-family: Brandon_reg;
+	color: #777777;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.wrapper{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+header{
+	overflow: hidden;
+}
+.logo {
+	width: 14%;
+	float: left;
+	margin: 50px 0;
+}
+.logo img {
+	width: 100%;
+
+}
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 45px;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	transition: .4s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #950605;
+}
+.banner{
+	text-align: center;
+	color: white;
+	margin: 100px 0;
+}
+.banner p{
+	font-size: 33px;
+	margin: 20px 0;
+}
+.banner h1{
+	font-size: 65px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.banner button{
+	padding: 25px 80px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 40px;
+}
+.banner button:hover{
+	border:2px solid #F96D77;
+	color: #F96D77;
+}
+.develpo {
+} 
+.wrapper1{
+	width: 65%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.web{
+	float: left;
+	padding: 55px 0px;
+	width: 60%;
+}
+.web h1{
+	font-size: 50px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: #222222;
+}
+.web p{
+	font-size: 14px;
+	color: #9A9A9A;
+}
+.logo1{
+	/*border: 1px solid red;*/
+	float: right;
+	width: 21%;
+	margin-top: 90px;
+}
+.logo1 img{
+	width: 100%;
+}
+.develpo1{
+	background-color: #FAFAFA;
+}
+.logo2{
+	float: left;
+	width: 30%;
+	margin-top: 85px;
+}
+.logo2 img{
+	width: 100%;
+}
+.web2{
+	float: right;
+	padding: 50px 0px;
+	width: 60%;
+}
+.web2 h1{
+	font-size: 50px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: #222222;
+}
+.web2 p{
+	font-size: 14px;
+	color: #9A9A9A;
+}
+.services{
+	padding: 50px 0px;
+}
+.service{
+	width: 30%;
+	padding: 5px 58px;
+	float: left;
+}
+.title{
+	overflow: hidden;
+}
+.icon{
+	width: 20%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon_content{
+	margin-left: 58px;
+}
+.icon_content h1{
+	font-size: 18px;
+	color: black;
+}
+.icon_content p{
+	font-size: 11px;
+}
+.clients{
+	background-color: #fafafa;
+	padding: 80px 0;
+}
+.header{
+	text-align: center;
+}
+.header h1{
+	font-size: 50px;
+	font-weight: 400;
+}
+.header h1 span{
+	color: black;
+}
+.header p{}
+.clients1{
+	overflow: hidden;
+	margin-bottom: 60px
+}
+.image{
+	width: 18%;
+	float: left;
+	border: 1px solid black;
+	height: 150px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-left: 111px;
+}
+.content{
+width: 52%;
+float: right;
+border: 1px solid black;
+padding: 23px 16px;
+margin: 0 54px;
+}
+.content p:first-child{
+	font-size: 23px;
+}
+.content p:last-child{
+	font-size: 18px;
+	color: #869DCB;
+}
+.clients2{
+	overflow: hidden;
+}
+.image2{
+	width: 18%;
+	float: right;
+	border: 1px solid black;
+	height: 150px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-right: 111px;
+}
+.content2{
+	width: 52%;
+    float: left;
+    border: 1px solid black;
+    padding: 23px 20px;
+    margin: 0px 54px;
+}
+.content2 p:first-child{
+	font-size: 23px;
+}
+.content2 p:last-child{
+	font-size: 18px;
+	color: #869DCB;
+}
+.last{
+	width: 100%;
+	text-align: center;
+	margin-bottom: -80px;
+}
+.last_part{
+	padding: 50px 0;
+}
+.blogs{
+	background-color: #111111;
+	padding: 50px 0;
+}
+.blog{
+	text-align: center;
+	font-family: Brandon_reg;
+	font-weight: 400;
+
+}
+.blog h1{
+	font-size: 50px;
+}
+.blog span{
+	color: white;
+}
+.blog p{
+	font-size: 20px;
+}
+.content3{
+	overflow: hidden;
+	float: left;
+
+}
+.image3{
+	width: 65%;
+    margin-left: 46px;
+	
+}
+.image3 img{
+	width: 100%;
+}
+.image3 h1{
+	font-size: 17px;
+	text-align: center;
+	color: white;
+	font-weight: 400;
+}
+.image3 p{
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	font-weight: 400;
+}
+.icon2{
+	text-align: center;
+	font-size: 28px;
+}
+.contact{
+	padding: 30px 0;
+}
+.contact h6{
+	text-align: center;
+	font-size: 26px;
+	font-weight: 300;
+	color: white;
+	font-family: Brandon_reg;
+}
+.footer{
+	background-color: #7690C5;
+}
+.left{
+	width: 45%;
+    overflow: hidden;
+    color: white;
+    padding: 50px 0;
+    margin-left: 40px;
+    float: left;
+}
+.content4{
+	width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.content4 h1{
+	font-size: 60px;
+    font-weight: lighter;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.content4 span{}
+.content4 p{
+	font-size: 18px;
+}
+.icon4{
+	width: 100%;
+    color: white;
+    margin-left: 10px;
+}
+.icon_4{
+	width: 45%;
+    overflow: hidden;
+    float: left;
+}
+.icon_4 i{
+	font-size: 22px;
+}
+.icon_4 p{
+	font-size: 13px;
+    padding-bottom: 10px;
+}
+.right{
+	float: right;
+	margin-right: 95px;
+}
+.form{
+	float: left;
+    width: 45%;
+    margin: 70px 0 0px 10px;
+}
+form{
+	width: 100%;
+}
+input{
+	width: 266%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 12px;
+    margin-bottom: 22px;
+}
+textarea{
+	width: 282%;
+}
+.curve {
+    border-bottom:  1px solid #D9D7F0;
+    display: block;
+    width: 61%;
+    text-align: center;
+    margin-left: 288px;
+}
+.last1{
+	background-color: #7690C5;
+}
+.last1_content{
+    text-align: center;
+    padding: 20px 0;
+}
+.last1_content p{
+	color: #DBE1EE;
+    font-size: 17px;
+}
