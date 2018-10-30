@@ -1,1 +1,1 @@
-# escape_0
+https://mdbulbul.github.io/escape_0/
